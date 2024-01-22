@@ -1,0 +1,232 @@
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body form {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: none;
+    border-radius: 10px;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+.input-login {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-login input {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+body {
+    margin: 0;
+    
+}
+
+
+  
+
+.topnav {
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #006142;
+}
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.topnav .linkbutt{
+    float: left;
+    display: block;
+    color: #ffffff;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}  
+  
+
+
+.topnav .linkbutt:hover {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 13px; 
+    color: #FBB813;
+   
+} 
+.content {
+    background-color: white;
+    height: 200px; /* Should be removed. Only for demonstration */
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap; /* ใช้ flex-wrap เพื่อให้แสดงเมนูในแนวนอนและขึ้นรายการใหม่เมื่อครบ 3 รายการ */
+    justify-content: space-between; /* ใช้ justify-content เพื่อกระจายเมนูให้เต็มแถว */
+}
+  
+.footer {
+    background-color: #006142;
+    padding: 10px;
+    text-align: center;
+    color:white;
+}
+
+/* style.css */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* ทำให้ wrapper มีความสูงเท่ากับหน้าจอ */
+}
+
+
+
+.menu {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.menu:hover {
+    transform: scale(1.02); /* ปรับขนาดของเมนูเล็กน้อยเมื่อ hover */
+}
+
+.menu img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* ปรับรูปภาพให้แสดงตรงกลาง */
+    margin: 0 auto; /* จัดตำแหน่งรูปภาพกลางแนวนอน */
+}
+
+
+
+/* เพิ่มลักษณะขอบแบบครอบรอบ */
+.menu h3 {
+    font-size: 18px;
+    margin: 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.menu p {
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.container {
+    text-align: center; /* จัดให้เนื้อหาภายใน container อยู่ตรงกลาง */
+}
+
+
+#center-button {
+    padding: 10px 20px; /* ปรับขนาดของปุ่ม */
+    color: #006142;
+    cursor: pointer; /* เปลี่ยนเป็น pointer เมื่อเมาส์ชี้ที่ปุ่ม */
+    transition: background-color 0.3s; /* เพิ่มอนิเมชันเมื่อเมาส์ hover ที่ปุ่ม */
+}
+
+#center-button:hover {
+    opacity: 0.3; /* สีพื้นหลังของปุ่มเมื่อ hover */
+}
+
+
+@media (max-width: 700px) {
+    .menu {
+        width: calc(100% - 20px); /* For smaller screens, display one menu item per row */
+    }
+}
+
+@media (min-width: 701px){
+    .menu {
+        width: calc(46% - 20px); /* For medium screens, display two menu items per row */
+    }
+}
+
+@media (min-width: 1101px){
+    .menu {
+        width: calc(30% - 20px); /* For medium screens, display two menu items per row */
+    }
+}
+
+@media (min-width: 1440px){
+    .menu {
+        width: calc(23% - 20px); /* For medium screens, display two menu items per row */
+    }
+}
+
+
+.content h1{
+    font-size: 20px;
+    text-align: center;
+}
+/* เพิ่ม margin-top เพื่อขยับตารางขึ้นไปยัง Navbar */
+table {
+     /* ปรับค่าตามที่เหมาะสม */
+    border-collapse: collapse;
+   width: 100%;;
+   
+}
+
+
+table, th, td {
+    margin-top: 0px;
+    border: 0.1rem #c9b58d solid;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    background-color: #FFEBC6;
+}
+
+th {
+    background-color: #b9880b;
+    color: white;
+}
+.confirm-button{
+    background-color: #0a794e;
+    font-size: 20px;
+    margin: 10px;
+    color:white;
+    padding:5px 10px;
+    border-radius: 10px;
+}
+
+.confirm-button:hover{
+    background-color: #0a794fa2;
+}

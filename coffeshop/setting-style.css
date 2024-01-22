@@ -1,0 +1,332 @@
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+.input-login {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-login input {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+body {
+    margin: 0;
+    background-color: #ffd79b;
+}
+  
+#pricetag{
+    font-size: 20px;
+}
+#nametag{
+    font-size: 27px;
+   
+}
+
+.topnav {
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #004731;
+    
+}
+  
+.topnav button i{
+   color: white;
+}
+.topnav .linkbutt{
+    float: left;
+    display: block;
+    color: #ffffff;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.topnav .cartbutt {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 27px 16px;
+    
+    
+}
+
+  
+.topnav .linkbutt:hover {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 13px; 
+    color: #FBB813;
+   
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+main {
+    padding: 10px;
+    background-color: #ffd79b;
+}
+  
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+
+}
+/* style.css */
+header {
+   
+    min-height: 100vh; /* ทำให้ wrapper มีความสูงเท่ากับหน้าจอ */
+}
+
+main {
+    
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap; /* ใช้ flex-wrap เพื่อให้แสดงเมนูในแนวนอนและขึ้นรายการใหม่เมื่อครบ 3 รายการ */
+    justify-content: space-between; /* ใช้ justify-content เพื่อกระจายเมนูให้เต็มแถว */
+}
+
+.menuu {
+    flex-wrap: wrap; /* ใช้ flex-wrap เพื่อให้แสดงเมนูในแนวนอนและขึ้นรายการใหม่เมื่อครบ 3 รายการ */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.466);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.menuu:hover {
+    transform: scale(1.02); 
+}
+
+.menuu img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* ปรับรูปภาพให้แสดงตรงกลาง */
+    margin: 0 auto; /* จัดตำแหน่งรูปภาพกลางแนวนอน */
+}
+
+
+
+/* เพิ่มลักษณะขอบแบบครอบรอบ */
+
+#nametag{
+    align-items: center;
+   
+    
+    color: #333;
+}
+#pricetag{
+    align-items: center;
+   
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+#center-button {
+    padding: 10px 20px; /* ปรับขนาดของปุ่ม */
+    color: #006142;
+    cursor: pointer; /* เปลี่ยนเป็น pointer เมื่อเมาส์ชี้ที่ปุ่ม */
+    transition: background-color 0.3s; /* เพิ่มอนิเมชันเมื่อเมาส์ hover ที่ปุ่ม */
+    
+}
+
+#center-button:hover {
+    opacity: 0.7; /* สีพื้นหลังของปุ่มเมื่อ hover */
+}
+#center-button:active{
+    opacity: 0.1; /* สีพื้นหลังของปุ่มเมื่อ hover */
+}
+.footer{
+    background-color: #006142;
+}
+@media (max-width: 700px) {
+    .menuu {
+        width: calc(100% - 20px); 
+    }
+}
+
+@media (min-width: 701px){
+    .menuu {
+        width: calc(46% - 20px); 
+    }
+}
+
+@media (min-width: 1101px){
+    .menuu {
+        width: calc(30% - 20px);
+    }
+}
+
+@media (min-width: 1440px){
+    .menuu {
+        width: calc(23% - 20px); 
+    }
+}
+.dark-theme {
+    background-color: #333; /* เปลี่ยนสีพื้นหลังเป็นสีมืด */
+    color: #fff; /* เปลี่ยนสีข้อความเป็นสีขาว */
+}
+
+.button-color{
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.button-color:hover{
+    background-color: #FBB813;
+    
+}
+
+
+.menu{
+    margin-top: 5em;
+    width: auto;
+   padding: 3em;
+   padding-top: 8em;
+   padding-bottom: 8em;
+   background-color: #ffffff69;
+   text-align: center;
+   
+}
+.menu a{
+    margin: 1em;
+    
+}
+.menu  button{
+    padding:3.5em;
+    border-radius: 20px ;
+    border: none;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.menu  button:hover{
+    background-color: #FBB813;
+}
+
+.inserT{
+    border: 0.1rem solid rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 50%;
+    padding: 1em;
+    margin: 10px;
+    background-color: #ffffff6b;
+    font-size: 30px;
+    
+}
+.inserT > form > input{
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.add{
+    background-color: #3D533B;
+    color:white;
+}
+
+.add:hover{
+    background-color: #3d533b7e;
+    color:white;
+}
+
+.back{
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+
+
+.back:hover{
+    background-color: #FBB813;
+}
+
+.update{
+    padding: 10px; 
+    text-align: center;
+}
+.update form{
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.411);
+    padding: 2em;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.update input{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.update .fix{
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.fix{
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: white;
+    padding: 5px;
+}
+
+.fix:hover{
+    background-color:#FBB813;
+
+}
+

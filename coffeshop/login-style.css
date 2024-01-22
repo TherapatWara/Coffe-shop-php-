@@ -1,0 +1,44 @@
+*{
+	font-size:20px;
+}
+body {
+	user-select: none;
+	overflow-y: hidden;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background: #3D533B;
+	
+}
+.input-login{
+    background-color: white;
+    padding: 100px 45px;
+    border-radius: 20px;
+	
+}
+
+.input-login input{
+    margin-left: 35px;
+	margin-bottom: 30px;
+	margin-top: -45px;
+    background: hsl(0deg 0% 100%);
+	
+	
+	display: flex;
+	border-radius: 5px;
+	color: hsl(0deg 0% 30%);
+}
+
+.input-login > .loginbut:hover{
+    background-color: #FBB813;	
+}
+.input-login > .loginbut{
+	margin: 0 auto;
+	margin-top: -40px;
+	width: 90%;
+	padding-left:33%;
+}
+
+p{
+    padding-right: 4px;
+}

@@ -1,0 +1,175 @@
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+form{
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    margin: 5px;
+}
+
+form > select{
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+form > input{
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+    padding: 5px;
+    background-color: #3D533B;
+    color:white;
+}
+
+form > input:hover{
+    background-color: #3d533b8f;
+}
+
+
+body {
+    margin: 0;
+    background-color: #ffebc681;
+}
+
+
+  
+
+.topnav {
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #004731;;
+    
+}
+  
+.topnav button i{
+   color: white;
+}
+.topnav .linkbutt{
+    float: left;
+    display: block;
+    color: #ffffff;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+a .cartbutt {
+    
+    color: #00EDA2;
+   
+    
+    
+}
+
+.topnav .cartbutt {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 27px 16px;
+    
+    
+}
+.topnav .linkbutt:hover {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 13px; 
+    color: #FBB813;
+   
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+  
+
+
+
+
+
+
+@media (max-width: 700px) {
+    .menu {
+        width: calc(100% - 20px); /* For smaller screens, display one menu item per row */
+    }
+}
+
+@media (min-width: 701px){
+    .menu {
+        width: calc(46% - 20px); /* For medium screens, display two menu items per row */
+    }
+}
+
+@media (min-width: 1101px){
+    .menu {
+        width: calc(30% - 20px); /* For medium screens, display two menu items per row */
+    }
+}
+
+@media (min-width: 1440px){
+    .menu {
+        width: calc(23% - 20px); /* For medium screens, display two menu items per row */
+    }
+}
+
+
+.content h1{
+    font-size: 20px;
+    text-align: center;
+}
+/* เพิ่ม margin-top เพื่อขยับตารางขึ้นไปยัง Navbar */
+table {
+     /* ปรับค่าตามที่เหมาะสม */
+    border-collapse: collapse;
+    width: 50%;;
+    margin: 0 auto;
+
+}
+
+
+table, th, td ,tr{
+    
+    border: 0.1rem #c9b58d solid;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    background-color: #FFEBC6;
+}
+
+th {
+    background-color: #b9880b;
+    color: white;
+}
+
+tr:hover{
+    background-color: aqua;
+}
+
+
+
+.q1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
